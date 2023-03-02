@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Learn To Code Online - Code With Harry</title>
+    <link rel="icon" href="harry.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- <link  href="https://kit.fontawesome.com/084b90fefa.css" rel="stylesheet" crossorigin="anonymous"> -->
+</head>
+
+<body>
+    <header>
+        <div class="nav1">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid flex">
+                    <a class="navbar-brand" href="#">
+                        <span id="header_text">
+                            CodeWithHarry
+                        </span>
+                    </a>
+                    <div class="rl">
+                        <button class="navbar-toggler" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class=menu>Menu</span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Couses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Tutorial</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Notes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Work With Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="hbtn">
+                            <button type="button" class="btn btn-header">LogIn</button>
+                            <button type="button" class="btn btn-header" id="signup">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <hr>
+        <div class="nav2">
+            <ul class="subnav2 nav ">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i></a>
+                </li>
+                <li class="nav-item">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">HTML</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">CSS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">JAVASCRIPT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">C</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">C++</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">PYTHON</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">PHP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">REACT JS</a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><i
+                            class="fa-solid fa-magnifying-glass"></i></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="item1">
+            <div class="item_text">
+                <div class="item_header">
+                    <h1> Welcome To <span id="cwh"> </span> </h1>
+                </div>
+                <div class="item_subheader">
+                    <h3> Learn <span id="typer"> </span> </h3>
+                </div>
+                <div class="textbody my-4">
+                    Confused on which course to take? I have got you covered. Browse courses and find out the best
+                    course for you. Its free! Code With Harry is my attempt to teach basics and those coding techniques
+                    to people in short time which took me ages to learn.
+                </div>
+                <div class="i1btn">
+                    <button type="button" class="btn btn-dark">Free Courses</button>
+                    <button type="button" class="btn btn-secondary">Explore Blogs</button>
+                </div>
+            </div>
+            <div class="item_image">
+                <img src="coding.jpg" alt="" id="image_item">
+            </div>
+        </div>
+
+        <div class="item2">
+            <div class="item_header"></div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+    <!-- custom script -->
+    <script src="index.js"></script>
+    <!-- typedjs -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        let speed = 1000;
+        let typer = new Typed('#typer', {
+            strings: ['', 'Javascript', 'ReactJS', 'DSA', 'Python', 'Machine Learning', 'Data Science', 'Web Developement', 'C', 'C++', 'Java', 'C++'],
+            typespeed: speed,
+            backspeed: speed,
+            loop: true
+
+        })
+    </script>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

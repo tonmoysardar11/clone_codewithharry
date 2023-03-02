@@ -1,0 +1,18 @@
+@media only screen and (max-width: 998px) {
+    #image_item ,.nav2{
+      display: none;
+    }
+    .item_header,.item_subheader,.textbody{
+        text-align: center;
+    }
+    #signup{
+        display: none;
+    }
+    .nav1{
+        margin: 0 10px;
+    }
+    #navbarSupportedContent{
+        width: 90vw;
+    }
+    
+  }
