@@ -18,12 +18,12 @@
   @media only screen and (min-width: 600px) {
     .card{
         width: 25vw;
-        margin: 10px auto;
+        margin: 10px 30px;
         height: 500px;
     }
     .card-list{
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
 
     }
@@ -34,5 +34,7 @@
         margin: 20px ;
         width: fit-content;
     }
-    
+    .test{
+        width: 45vw;
+    }
   }
