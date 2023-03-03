@@ -14,5 +14,25 @@
     #navbarSupportedContent{
         width: 90vw;
     }
+  }
+  @media only screen and (min-width: 600px) {
+    .card{
+        width: 25vw;
+        margin: 10px auto;
+        height: 500px;
+    }
+    .card-list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .card-body{
+        height: 220px;
+    }
+    .card-btn{
+        margin: 20px ;
+        width: fit-content;
+    }
     
   }
