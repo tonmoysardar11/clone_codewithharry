@@ -1,5 +1,4 @@
 
-
 let i = 0;
 let type1 = 'CodeWithHarry';
 let functype1 = () => {
@@ -13,4 +12,6 @@ let functype1 = () => {
 }
 
 functype1();
+
+
 

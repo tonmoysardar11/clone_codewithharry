@@ -8,11 +8,11 @@
     <link rel="icon" href="harry.jpeg">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media.css">
-    <script src="https://kit.fontawesome.com/275a21d033.js" crossorigin="anonymous"></script>
 
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/275a21d033.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -177,28 +177,44 @@
             </div>
             <div class="card-list">
                 <div class="test">
-                    
-                    <img src="quote.png"
-                        class="quote" alt="">
-                        <h5>I don't have words to thank this man, I'm really grateful to have this channel and website
-                            in my daily routine. If you're a mere beginner, then you can trust this guy and can put your
-                            time into his content. I can assure you that it'll be worth it.</h5>
-                        <h6> <b>Mohit Kumar</b> </h6>
-                        <h6>Web Developer</h6>
+
+                    <img src="quote.png" class="quote" alt="">
+                    <h5>I don't have words to thank this man, I'm really grateful to have this channel and website
+                        in my daily routine. If you're a mere beginner, then you can trust this guy and can put your
+                        time into his content. I can assure you that it'll be worth it.</h5>
+                    <h6> <b>Mohit Kumar</b> </h6>
+                    <h6>Web Developer</h6>
                 </div>
                 <div class="test">
-                    <img src="quote.png"
-                        class="quote" alt="">
-                            <h5>For everyone who wants to level up their #Coding and #Dev skills - seriously, this channel is for you! Both basic and advanced stacks are covered on this channel, and one can learn according to his skill levels. And the icing on the cake is, everything is available for free.</h5>
-                            <h6> <b>Rakesh Shetty</b> </h6>
-                            <h6>Web Developer</h6>
+                    <img src="quote.png" class="quote" alt="">
+                    <h5>For everyone who wants to level up their #Coding and #Dev skills - seriously, this channel is
+                        for you! Both basic and advanced stacks are covered on this channel, and one can learn according
+                        to his skill levels. And the icing on the cake is, everything is available for free.</h5>
+                    <h6> <b>Rakesh Shetty</b> </h6>
+                    <h6>Web Developer</h6>
                 </div>
             </div>
         </div>
 
     </main>
     <footer>
-
+        <div class="fleft">
+            <div class="flogo">
+                <img src="harry.jpeg" alt="">
+                <span class="ftext">CodeWithHarry</span>
+            </div>
+            <div class="copy">
+                Copyright © 2022 CodeWithHarry.com
+            </div>
+        </div>
+        <div class="fright">
+<div class="iconset">
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-github"></i>
+</div>
+        </div>
     </footer>
 
 
@@ -214,19 +230,20 @@
     <!-- typedjs -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
-        let speed = 1000;
-        let typer = new Typed('#typer', {
-            strings: ['', 'Javascript', 'ReactJS', 'DSA', 'Python', 'Machine Learning', 'Data Science', 'Web Developement', 'C', 'C++', 'Java'],
-            typespeed: speed,
-            backspeed: speed,
+        let options = {
+            strings: ['Javascript', 'ReactJS', 'DSA', 'Python', 'Machine Learning', 'Data Science', 'Web Developement', 'C', 'C++', 'Java'],
+            typespeed: 1000,
+            backspeed: 1000,
             loop: true
+        };
 
-        })
+        let typed = new Typed('#typer', options);
+
     </script>
-    <!-- bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
